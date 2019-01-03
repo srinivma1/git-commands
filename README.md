@@ -16,4 +16,9 @@
 
 Then run commands under checkin section above.
 
-
+# In case of abort error because of merge conflicts while doing git stash apply in the abov section:
+   
+       1. Remove conflicts in the file manually.
+       2. git add <Filename>
+       3. git commit -m ""
+       4. git push origin BRANCH NAME
